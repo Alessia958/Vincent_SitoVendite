@@ -1,0 +1,54 @@
+            <form id = "form2" method = "post" action = "CreaProdotto.php" enctype = "multipart/form-data" onsubmit = "return controllaForm();">
+                <fieldset id="fdAdmin">
+                    <div id="AggiungiP"><p>Aggiungi Prodotto (campo obbligatorio <span class="star">*</span>)</p></div>
+
+                    <label class="labelAdmin" for="Nomep">Nome Prodotto <span class="star">*</span></label>
+                    <input type="text" id="Nomep" name="nomep"  class="form-control" tabindex="1"/>
+                    <ul class = "noDot">
+                        <li class="aiutiForm2">Il nome non deve superare i 30 caratteri</li>
+                        <li class="aiutiForm2">Possono esserci solo caratteri alfanumerici</li>
+                    </ul>
+
+                    <label class="labelAdmin" for="Descrizionep">Descrizione<span class="star"> *</span></label>
+                    <textarea rows="10" cols="10" id="Descrizionep" name="descrizionep"  class="form-control" tabindex="2"></textarea>
+                    <ul class = "noDot">
+                        <li class="aiutiForm2">La descrizione non deve superare i 200 caratteri</li>
+                        <li class="aiutiForm2">Possono esserci solo caratteri alfanumerici</li>
+                    </ul>
+
+                    <label class="labelAdmin" for="prezzop">Prezzo<span class="star"> *</span></label>
+                    <input type="text" id="prezzop" name="prezzo" class="form-control" tabindex="3"/>
+                    <ul class = "noDot">
+                        <li class="aiutiForm2">Il prezzo non può superare le 9 cifre più 2 decimali</li>
+                        <li class="aiutiForm2">I numeri decimali devono essere separati con un punto</li>
+                        <li class="aiutiForm2">Il prezzo deve essere maggiore di 0</li>
+                    </ul>
+
+                    <label class="labelAdmin" for="Tagliap">Taglia<span class="star"> *</span></label>
+                    <select id="Tagliap" name="Tagliap"  tabindex="4">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+
+                    <label class="labelAdmin" for="Tipop">Tipo Prodotto <span class="star"> *</span></label>
+                    <select id="Tipop" name="Tipop"  tabindex="5">
+                        <option>Zaino</option>
+                        <option>Borsa</option>
+                        <option>Portafoglio</option>
+                    </select>
+
+                    <label class="labelAdmin" for="picture">Seleziona un'immagine per il prodotto <span class="star">*</span></label>
+                    <input class="form-control" type="file" name="picture" id="picture" accept="image/x-png"  tabindex="6"/>
+                    <ul class = "noDot">
+                        <li class="aiutiForm2">Formato supportato: .png</li>
+                        <li class="aiutiForm2">Massima dimensione file: 500kb</li>
+                        <li class="aiutiForm2">Dimensioni consigliate foto: 176 x 256</li>
+                    </ul>
+
+                    <input id="AddProd" name="Aggiungi_Prod" value="Aggiungi Prodotto" type="submit" tabindex="7"/>
+                </fieldset>
+            </form>
+            <a class="aiuti" href="#breadcrump">Torna su</a>
+        </div>
+

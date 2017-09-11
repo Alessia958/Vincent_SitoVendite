@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+    <head>
+        <title>Registrati - Vincent</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="title" content="Registrati - Vincent" />
+        <meta name="description" content="Registrazione account per il sito. L'account è necessario per effettuare e
+                                                completare acquisti" />
+        <meta name="keywords" content="borse, zaini, portafogli, fatti a mano, vincent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="Pagine/Immagini/v_shortcutnew.png"/>
+        <link rel="stylesheet" type="text/css" href="Pagine/CSS/Style.css" />
+        <link rel="stylesheet" type="text/css" href="Pagine/CSS/StyleMobile.css"
+              media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)"/>
+        <link rel="stylesheet" media="print" type="text/css" href="Pagine/CSS/Print.css" />
+        <script src="Pagine/JS/Registrati.js" type="text/javascript"></script>
+        <script src="Pagine/JS/MenuTendina.js"  type="text/javascript"></script>
+    </head>
+
+    <body onload="hide()">
+        <div id ="header">
+            <a href="Home.php"><img class="titolo" src="Pagine/Immagini/titolonew.jpg" alt="Logo Vincent"/></a>
+            <h1>Realizzazioni creative di <strong>Zaini</strong>, <strong>Borse</strong> e <strong>Portafogli</strong></h1>
+        </div>
+        <div id="breadcrump">
+            <p>Ti trovi in: Registrati</p>
+            <div class ="bottonibreadcump">
+                <a href = "Login.php"><img id = "login" src = "Pagine/Immagini/login2.png" alt = "Effettua l'accesso al tuo profilo"/></a>
+                <a href="Carrello.php"><img id="carrello" src="Pagine/Immagini/carrello2.png" alt="Entra nella pagina del carrello"/></a>
+            </div>
+        </div>
+        <div id="nav">
+            <a class="hidden" href="#content">Salta la navigazione</a>
+            <ul class = "noDot">
+                <li><a href="Home.php"><span xml:lang="en">Home</span></a></li>
+                <li onclick = "show()" id = "dropbtn">
+                    <a id = "arrow" tabindex="1" onkeypress="return show()" >Prodotti &#9650;</a>
+                    <ul id = "myDropdown">
+                        <li><a href="Vetrina.php?tipo=zaini&amp;tryVoto=0">Zaini</a></li>
+                        <li><a href="Vetrina.php?tipo=borse&amp;tryVoto=0">Borse</a></li>
+                        <li><a href="Vetrina.php?tipo=portafogli&amp;tryVoto=0">Portafogli</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contatti.php">Contatti</a></li>
+                <li><a href="Login.php"><span xml:lang="en">Login</span></a></li>
+                <li id="current-navigation">Registrati</li>
+                <li><a href="Carrello.php">Carrello</a></li>
+            </ul>
+        </div>
+        <div id="content">

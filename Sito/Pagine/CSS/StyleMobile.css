@@ -1,0 +1,177 @@
+.titolo{
+    max-width: 100%;
+}
+
+#header h1{
+    font-size: 1.2em;
+}
+
+#breadcrump{
+    float: none;
+    text-align: center;
+}
+
+#breadcrump p{
+    float: none;
+    width: auto;
+}
+
+.bottonibreadcump{
+    float: none;
+    display: block;
+    margin: auto;
+}
+
+.slide-container{
+    margin: 1em auto 1em auto;
+    width: auto;
+}
+
+.Slides img{
+    width: 20em;
+    height: 20em;
+}
+
+#nav{
+    float: none;
+    width: 100%;
+}
+
+#content{
+    float: none;
+    width: auto;
+}
+
+.demo{
+    margin: 1em auto 1em auto;
+    width: 50%;
+}
+
+#signin{
+    float: none;
+    margin: auto;
+    padding-bottom: 2%;
+    width: 80%;
+}
+
+#registrati{
+    margin: auto;
+    float: none;
+    padding-top: 2%;
+    width: 80%;
+}
+
+#logoFacebook{
+    float: none;
+    display: block;
+    margin: auto;
+}
+
+.imgValid{
+    display: block;
+    margin: auto;
+}
+
+#content h2{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#foto .imgprodotto{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 2%;
+	width: 96%;
+	float: none;
+	display: block;
+}
+
+#foto .imgprodotto img{
+    width: 50%;
+    height: 40%;
+}
+
+#foto{
+	padding-left: 0;
+}
+
+#radio input{
+    width: 2em;
+    height: 2em;
+}
+
+#radio label{
+    font-size: 1.3em;
+}
+
+.labelAdmin{
+    text-align: center;
+}
+
+#Tagliap{
+    margin: auto;
+    display: block;
+}
+
+#Tipop{
+    margin: auto;
+    display: block;
+}
+
+#AddProd{
+    margin-top: 1em;
+}
+
+#form1{
+    margin-top: 1em;
+    width: 90%;
+}
+
+.casellaTesto{
+    float: none;
+    display: block;
+    width: 80%;
+    margin-top: 0.5em ;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ordine{
+    float: none;
+    margin-left: 0em;
+    display: block;
+    width: auto;
+}
+
+.info_ordine{
+    width: auto;
+    float: none;
+    display: block;
+    margin: auto;
+    padding-bottom: 0.5em;
+}
+
+.imgordine{
+    width: 60%;
+    float: none;
+    margin: auto;
+    display: block;
+}
+
+.info_ordine p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#contento{
+    float: none;
+    width: auto;
+}
+
+.hidden{
+    position: relative;
+    height: auto;
+    text-align: center;
+}
